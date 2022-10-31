@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbecue</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"
+        integrity="sha256-mBCu5+bVfYzOqpYyK4jm30ZxAZRomuErKEFJFIyrwvM=" crossorigin="anonymous" defer></script>
+    <script src="slick/slick.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <a href="" class="header__logo"></a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">                          
+                            <li><a data-goto=".page__section1" href="#" class="menu__link">ГОЛОВНА</a></li>
+                            <li><a data-goto=".page__section2" href="#" class="menu__link">КАТАЛОГ</a></li>
+                            <li><a data-goto=".page__section3" href="#" class="menu__link">ФОТОГАЛЕРЕЯ</a></li>
+                            <li><a data-goto=".page__section4" href="#" class="menu__link">АКЦІЇ</a></li>
+                            <li><a data-goto=".page__section5" href="#" class="menu__link">ПРО НАС</a></li>
+                            <li><a data-goto=".page__section6" href="#" class="menu__link">ПРОЄКТИ</a></li>
+                            <li><a data-goto=".page__section7" href="#" class="menu__link">КОНТАКТИ</a></li>
+                            <li class="upper__info">
+                                <div class="upup__info">
+                                    <!-- <div class="upup__point"></div> -->
+                                    <span class="upup__text"> <img class="upup__point" src="img/point.png" alt=""> Ми онлайн, пишіть</span>
+                                    <div class="upup__social">
+                                    <a class="wtsup" href=""><img src="img/logos_whatsapp.png" alt=""></a>
+                                    <a class="tlgrm" href=""><img src="img/logos_telegram.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="downdown__info">
+                                    <div class="downdown__phone-icon"></div>
+                                    <span class="downdown__phone">+38067777-77-77</span>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                       
+                    </nav>
+
+                </div>
+            </div>
+            <div class="wrapper__sidenav">
+            <div class="side__nav">
+                <a class="btn__side__nav" href=""><img src="img/callme.png" alt="callme"></a>
+                <a class="btn__side__nav" href=""><img src="img/calculator.png" alt="calc"></a>
+                <a class="btn__side__nav" href=""><img src="img/download.png" alt="download"></a>
+                <a class="btn__side__nav" href=""><img src="img/begin.png" alt="begin"></a>            
+            </div>
+            <div class="hide__side__nav"><img src="img/hide.png" alt="hide">
+            </div>
+        </header>
+        <main class="page">
+            <div class="content">
+                <section class="main-header">
+                    <div class="layers">
+                        <div class="layers__header">
+                            <div class="layers__title">МОДУЛЬНИЙ <br> <span class="title__orange">БАРБЕКЮ КОМПЛЕКС</span></div>
+                            <div class="layers__caption">НА ОСНОВІ НАТУРАЛЬНОГО (НАПІВДОРОГОЦІННОГО) КАМЕНЮ ВІД ВИРОБНИКА <span class="title__orange">ЗА 14 ДНІВ</span>  З ДОСТАВКОЮ В БУДЬ-ЯКУ ТОЧКУ УКРАЇНИ</div>
+                            <div class="layers__p">
+                                <img src="img/bbq1.png" alt="bbq1">
+                                <p>Виготовлений на 80% з <span class="p__bold">натурального каменю</span>  та на 20% з <span class="p__bold">жаростійкого бетону</span></p>
+                            </div>
+                            <div class="layers__p">
+                                <img src="img/bbq2.png" alt="bbq2">
+                                <p>Легко зібрати самостійно <span class="p__bold">за 30 хвилин</span></p>
+                            </div>
+                            <div class="layers__p">
+                                <img src="img/bbq3.png" alt="bbq3">
+                                <p> <span class="p__bold">В 3 рази дешевше</span> аналогічного комплексу з цегли без зниження якості</p>
+                            </div>
+                            <div class="layers__p">
+                                <img src="img/bbq4.png" alt="bbq4">
+                                <p> <span class="p__bold">Гарантія</span> на всі наші вироби - 1 рік</p>
+                            </div>
+                            <button class="btn__calculate">РОЗРАХУВАТИ ВАРТІСТЬ</button>
+                        </div>
+                        <div class="layer layer__base" style="background-image: url(img/top_bottom.png)"></div>
+                        <div class="layer layers__middle" style="background-image: url(img/top_middle.png)"></div>
+                        <div class="layer layers__front" style="background-image: url(img/top_front.png)"></div>
+                        
+                        
+                        </div>
+                        <div class="benefits">
+                            <div class="bnfts__container">
+                                <img class="bnfts__img" src="img/pros1.png" alt="">
+                                <p class="bnfts__description">СКЛАДІТЬ СВОЮ <span class="title__orange">ІДЕАЛЬНУ ЗОНУ БАРБЕКЮ</span> З НАШИХ
+                                    МОДУЛІВ</p>
+                            </div>
+                            <div class="bnfts__container">
+                                <img class="bnfts__img" src="img/pros2.png" alt="">
+                                <p class="bnfts__description">НЕ ПОТРІБЕН ОКРЕМИЙ ФУНДАМЕНТ <span class="title__orange">ДОСТАТНЬО РІВНОЇ
+                                        ПОВЕРХНІ</span></p>
+                            </div>
+                            <div class="bnfts__container">
+                                <img class="bnfts__img" src="img/pros3.png" alt="">
+                                <p class="bnfts__description"><span class="title__orange">СТИЛЬНІ ТА ЕКОЛОГІЧНІ</span> ПЕЧІ-БАРБЕКЮ</p>
+                            </div>
+                            <div class="bnfts__container">
+                                <img class="bnfts__img" src="img/pros4.png" alt="">
+                                <p class="bnfts__description"><span class="title__orange">МОРОЗОСТІЙКІ</span> - ЯКІСТЬ ПЕРЕВІРЕНО</p>
+                            </div>
+                    </div>
+                </section>
+                <article class="main-article" style="background-image: url(img/second_bottom.png)">
+                    <div class="main-article__content">
+                        <h2 class="main-article__header">КАТАЛОГ</h2>
+                        <div class="ctlg__container">
+                            <div class="ctlg__1">
+                                <div class="ctlg">
+                                    <img src="img/ctlg1.png" alt="ctlg1" class="ctlg__img">
+                                    <p class="ctlg__dscrpt">Барбекю комплекс з бетону та напівдорогоцінного каменю</p>
+                                </div>
+                                <div class="ctlg">
+                                    <img src="img/ctlg2.png" alt="ctlg2" class="ctlg__img">
+                                    <p class="ctlg__dscrpt">Барбекю комплекс "Італійські технології"</p>
+                                </div>
+                            </div>
+                            <div class="ctlg__2">
+                                <div class="ctlg">
+                                    <img src="img/ctlg3.png" alt="ctlg3" class="ctlg__img">
+                                    <p class="ctlg__dscrpt">МАФ</p>
+                                </div>
+                                <div class="ctlg">
+                                    <img src="img/ctlg4.png" alt="ctlg4" class="ctlg__img">
+                                    <p class="ctlg__dscrpt">Плитка</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <section class="white__page">
+                    <div class="wht__better">
+                        <div class="whtbttr_header">
+                            <p>Чим наші барбекю комплекси <span class="title__orange"> кращі</span> </p>
+                        </div>
+                        <div class="whtbttr__cntnr1">
+                            <div class="whtbttr__big1">
+                                <h4>ПРИГОТУВАННЯ</h4>
+                                <p>Для топки можна використовувати вугілля і дрова, а також готувати на шампурах та різноманітних решітках для риби та м'яса</p>
+                            </div>
+                            <div class="whtbttr__small">
+                                <div class="whtbttrsmll__card1">
+                                        <h4>ПРОСТОТА ЗБІРКИ</h4>
+                                        <p>Для збірки необхіні 2 дорослих людини (Батько, друг, сусід) та 15-20 хвилин на один модуль! Складається як "Доросле LEGO" по системі шип-паз!</p>
+                                </div>
+                                <div class="whtbttrsmll__card2">
+                                        <h4>МОДУЛЬНІСТЬ</h4>
+                                        <p>Індивідуальні варіанти виконання вашої зони барбекю!</p>
+                                </div>
+                            </div>
+                            <div class="whtbttr__big2">
+                                    <h4>ДОСТАВКА ПО ВСІЙ УКРАЇНІ</h4>
+                                    <p>Перед відправленням ми підбираємо для Вас найвигідніший спосіб доставки, через транспортні компанії!</p>
+                            </div>
+                        </div>
+                        <div class="whtbttr__cntnr2">
+                            <div class="whtbttr__big3">
+                                    <h4>СКЛАД</h4>
+                                    <p>80% це натуральні напівдорогоцінні гірські породи з Карпатських гір, а 20% жаростійкий бетон марки М600, морозостійкість f300</p>
+                            </div>
+                            <div class="whtbttr__big4">
+                                    <h4>НА ВЕЛИКУ СІМ'Ю</h4>
+                                    <p>Навіть стандартна зона барбекю, зможе нагодувати сім'ю з 10 людей швидко та смачно!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ready__bbq">
+                        <div class="ready__heading">
+                            <h2>ГОТОВІ КОМПЛЕКСИ БАРБЕКЮ</h2>
+                        </div>
+                        <div class="sldr__bbq">
+                            <div class="sldr-item"><img src="img/sldr1.png" alt="sldr"></div>
+                            <div class="sldr-item"><img src="img/sldr2.png" alt="sldr"></div>
+                            <div class="sldr-item"><img src="img/sldr3.png" alt="sldr"></div>
+                            <div class="sldr-item"><img src="img/sldr1.png" alt="sldr"></div>
+                            <div class="sldr-item"><img src="img/sldr2.png" alt="sldr"></div>
+                            <div class="sldr-item"><img src="img/sldr3.png" alt="sldr"></div>
+                            <div class="sldr-item"><img src="img/sldr1.png" alt="sldr"></div>
+                            <div class="sldr-item"><img src="img/sldr2.png" alt="sldr"></div>
+                            <div class="sldr-item"><img src="img/sldr3.png" alt="sldr"></div>
+                        </div>
+                    </div>
+                    <div class="unique">
+                        <div class="unique__heading"> 
+                            <h2>СТВОРИ <span class="title__orange">УНІКАЛЬНИЙ ДИЗАЙН</span> СВОЄЇ ДІЛЯНКИ</h2>
+                        </div>
+                        <div class="unique__paragraph">
+                            <p>Отримайте відповіді на запитання та підберіть собі модулі барбекю комплексу індивівдуально.</p>
+                        </div>
+                        <button class="unique__button">ПРОЙТИ ТЕСТ</button>
+                    </div>
+                </section>
+                <section class="our__work">
+                    <div class="our__work-heading">
+                        <h2>ЯК МИ ПРАЦЮЄМО</h2>
+                    </div>
+                    <div class="our__work-paragraph">
+                        <p>Вже через <span class="title__orange">14 днів</span>  барбекю комплекс буде у Вас з інструкцією по складанню та <span class="title__orange">приємним бонусом</span> </p>
+                    </div>
+                    <div class="our__work-container">
+                        <div class="owc1">
+                            <div class="owc__img1">
+                                <p>Ви <span class="p__bold">залишаєте заявку</span>  на нашому сайті або телефонуєте менеджеру</p>
+                            </div>
+                            <div class="owc__img2">
+                                <p>Робимо <span class="p__bold">розрахунок вартості</span>  та відповідності під ваші умови</p>
+                            </div>
+                            <div class="owc__img3">
+                                <p>Заключаємо <span class="p__bold">договір</span>  (передплата від 50%)</p>
+                            </div>
+                        </div>
+                        <div class="owc2">
+                            <div class="owc__img4">
+                                <p> <span class="p__bold">Виготовляємо</span>  протягом 10-15 робочих днів</p>
+                            </div>
+                            <div class="owc__img5">
+                                <p>Повідомляємо Вам про готовність та узгоджуємо з Вами <span class="p__bold"></span> відправку виробів</p>
+                            </div>
+                            <div class="owc__img6">
+                                <p>Отримуєте вироби та насолоджеєтесь <span class="p__bold">смачною та корисною їжею</span> </p>
+                            </div>           
+                        </div>
+                    </div>
+                </section>
+                <section class="bbq__video">
+                    <div class="bbq__video-heading"><h2>ПЕРЕГЛЯНЬТЕ ВІДЕО ПРО КОМПАНІЮ</h2></div>
+                    <div class="bbq__video-frame">
+                        <iframe class="bbq__youtube" width="1230px" height="693px" src="https://www.youtube.com/embed/isB_yQFZoiM?controls=0&amp&start=10&autoplay=1" title="YouTube video player"
+                            frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="example__heading"><h2>ОТРИМАЙТЕ ПРИКЛАДИ КОМПЛЕКСУ В ПОТРІБНОМУ КОЛЬОРІ ПРЯМО НА VIBER</h2></div>
+                    <div class="example__form">
+                        <form action="" class="example">
+                            <input type="text" class="name" placeholder="Ім'я">
+                            <input type="text" class="tel__number" placeholder="Номер телефону Viber">
+                            <button class="example__send">НАДІСЛАТИ ПРИКЛАДИ КОМПЛЕКСІВ</button>
+                            <p>Натискаючи кнопку "НАДІСЛАТИ ПРИКЛАДИ КОМПЛЕКСІВ", Ви автоматично погоджуєтесь з Політикою конфіденційності та
+                                обробкою данних.</p>
+                        </form>
+                    </div>
+                </section>
+                <section class="sale">
+                    <div class="sale__heading"><h2> <span class="title__orange">АКЦІЯ!</span> <br>  при замовленні комплексу барбекю - <span class="title__orange">ваза в колір комплексу у подарунок</span> </h2></div>
+                </section>
+                <div class="our__position">
+                    <img src="img/map.png" alt="map">
+                </div>
+            </div>
+            
+        
+        </main>
+        <footer>
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <img src="img/logo.png" alt="">
+                    <p>Політика конфіденційності</p>
+                </div>
+                <div class="footer__links1">
+                    <a href="">Головна</a>
+                    <a href="">Каталог</a>
+                    <a href="">Фотогалерея</a>
+                    <a href="">Акції</a>
+        
+                </div>
+                <div class="footer__links2">
+                    <a href="">Про компанію</a>
+                    <a href="">Проєкти</a>
+                    <a href="">Контакти</a>
+                </div>
+                <div class="footer__social">
+                    <div class="upup__info">
+                        <span class="upup__text"> <img class="upup__point" src="img/point.png" alt=""> Ми онлайн, пишіть</span>
+        
+                    </div>
+                    <div class="upup__social">
+                        <a class="wtsup" href=""><img src="img/logos_whatsapp.png" alt=""></a>
+                        <a class="tlgrm" href=""><img src="img/logos_telegram.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer__workhours">
+                    <div><img class="fw__point" src="img/point.png" alt=""></div>
+                    <div>
+                        <span class="fw__text"> <span class="p__bold">Пн-Пт:</span> з 09:00 до 18:30<br> <span
+                                class="p__bold">Сб-Нд:</span> з 09:00 до 17:30</span>
+                    </div>
+        
+                </div>
+                <div class="footer__contacts">
+                    <div class="downdown__info">
+                        <div class="downdown__phone-icon"></div>
+                        <span class="downdown__phone">+38067777-77-77</span>
+                    </div>
+                    <p class="fc__made">Зроблено Baren WebDev</p>
+                    <p class="fc__agree">Згода на обробку персональних даних</p>
+        
+                </div>
+        
+        
+        
+            </div>
+        </footer>
+        </div>
+</body>
+</html>
