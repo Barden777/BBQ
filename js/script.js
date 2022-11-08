@@ -137,15 +137,17 @@ $('.sldr__bbq').slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 520,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: '0px',
+                infinite: true,
             }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
+
     ]
 });
+
 

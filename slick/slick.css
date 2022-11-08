@@ -23,7 +23,7 @@
 .slick-prev,
 .slick-next {
     position: absolute;
-    top: 50%;
+    bottom: 45%;
 
     display: block;
     padding: 0;
@@ -108,6 +108,8 @@
 .slick-slide img
 {
     display: block;
+    width:100%;
+    margin: 0 10px;
 }
 .slick-slide.slick-loading img
 {
@@ -181,4 +183,15 @@
 .slick-arrow.slick-next {
     right: 0;
     background: url("../img/arr_right.png") 0 0 / 100% no-repeat;
+}
+
+@media (min-width: 320px) and (max-width: 520px) {
+    .slick-prev,
+    .slick-next {
+        bottom: -45px;
+    }
+
+    .slick-dots li {
+        margin: 0 5px;
+    }
 }
