@@ -1784,7 +1784,7 @@ body._touch .menu__list > li._active .menu__arrow {
   }
 }
 
-@media (min-width: 520px) and (max-width: 1000px) and (min-height: 360px) and (max-height: 950px) {
+@media (min-width: 520px) and (max-width: 1000px) and (min-height: 320px) and (max-height: 950px) {
   .header {
     margin: 0;
   }
@@ -1793,7 +1793,7 @@ body._touch .menu__list > li._active .menu__arrow {
   }
   .layers__title {
     font-size: 6vh;
-    width: 50vmax;
+    width: 60vmin;
     height: auto;
     line-height: 6vh;
     padding: 1vh;
